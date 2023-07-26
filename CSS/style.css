@@ -1,9 +1,15 @@
+@font-face {
+    font-family: Billie;
+    src: url(/Fonts/Tinos-Italic.ttf);
+}
+
 body{
 
-    background-color: #937758;
+    background-color: #8d6e51;
     font-size: 16px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Billie;
 }
 a{
     text-decoration: none;
@@ -20,22 +26,28 @@ header nav .left img{
     width: 190px;
     height: 50px;
 }
-
+header nav .left img:hover{
+    cursor: pointer;
+}
 header nav .center a{
 font-style: italic;
-font-weight: bold;
 font-size: 1.2em;
 margin-right: 25px;
+font-family: Billie;
+
 
 }
+header nav .center a:hover{
+    color: #d3c29a;
+}
+
 header nav .right a{
     margin-right: 25px;
+    color: #d3c29a;
 }
-header .slider img{
-    width: 100%;
-    height: 350px;
+header nav .right a:hover{
+    color: white;
 }
-
 main .banner{
     margin-top: 80px;
     text-align: center;
@@ -54,10 +66,24 @@ main .happier-than-ever-album img{
     width: 450px;
     border: 1px solid white;
 }
-main .happier-than-ever-album span{
+main .happier-than-ever-album .name{
     margin-top: 20px;
     color: white;
-    font-size: 1.7em;
-    font-weight: bold;
+    font-size: 1.5em;
     font-style: italic;
+}
+main .happier-than-ever-album .listen{
+margin-top: 20px;
+color: #d3c29a;
+letter-spacing: 2px;
+}
+
+main .slider {
+    text-align: center;
+}
+main .slider img{
+  
+    margin-top: 500px;
+    width: 90%;
+    height: 280px;
 }
