@@ -42,7 +42,8 @@ header nav .center a:hover{
 }
 
 header nav .right a{
-    margin-right: 25px;
+    font-size: 1.2em;
+    margin-right: 10px;
     color: #d3c29a;
 }
 header nav .right a:hover{
