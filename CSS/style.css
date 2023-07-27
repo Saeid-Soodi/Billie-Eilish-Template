@@ -100,3 +100,24 @@ main .slider img{
     padding: 0px 40px;
     text-align: center;
     margin-left:550px;
+}
+
+footer .logos{
+    text-align: center;
+}
+footer .logos a{
+    font-size: 1.2em;
+    margin-right: 15px;
+    color: #d3c29a;
+}
+footer .logos a:hover{
+    color: white ;
+}
+footer .copy-right{
+    text-align: center;
+}
+footer .copy-right a{
+    font-size: 1em;
+    margin-right: 15px;
+    color: #d3c29a;
+}
