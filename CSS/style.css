@@ -103,6 +103,7 @@ main .slider img{
 }
 
 footer .logos{
+    margin-top: 10px;
     text-align: center;
 }
 footer .logos a{
@@ -114,10 +115,14 @@ footer .logos a:hover{
     color: white ;
 }
 footer .copy-right{
+    margin-top: 10px;
     text-align: center;
 }
 footer .copy-right a{
     font-size: 1em;
     margin-right: 15px;
     color: #d3c29a;
+}
+footer .copy-right a:hover{
+    color: white;
 }
