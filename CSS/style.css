@@ -64,8 +64,8 @@ main .happier-than-ever-album{
     flex-direction: column;
 }
 main .happier-than-ever-album img{
-    width: 450px;
-    border: 1px solid white;
+    width: 560px;
+   
 }
 main .happier-than-ever-album .name{
     margin-top: 20px;
@@ -76,15 +76,27 @@ main .happier-than-ever-album .name{
 main .happier-than-ever-album .listen{
 margin-top: 20px;
 color: #d3c29a;
-letter-spacing: 2px;
+letter-spacing: 4px;
 }
 
 main .slider {
     text-align: center;
 }
 main .slider img{
-  
     margin-top: 500px;
     width: 90%;
     height: 280px;
 }
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 1.7em; 
+    font-weight: bold;
+    color:#8d6e51;
+    background-color: #d3c29a;
+    letter-spacing: 20px;
+    max-width: fit-content;
+    padding: 0px 40px;
+    text-align: center;
+    margin-left:550px;
