@@ -16,7 +16,7 @@ a{
     color: white;
 }
 header nav{
-    background-color: #7e674d;
+    background: url(/image/hbg.jpg) center/cover no-repeat;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@ header nav .left img:hover{
 header nav .center a{
 font-style: italic;
 font-size: 1.2em;
-margin-right: 25px;
+margin-right: 29px;
 font-family: Billie;
 
 
@@ -50,8 +50,14 @@ header nav .right a:hover{
     color: white;
 }
 main .banner{
-    margin-top: 80px;
+    width: 1100px;
+    height: 578px;
+    margin-left: 220px;
+    margin-top: 60px;
     text-align: center;
+}
+main .banner:hover{
+    cursor: pointer;
 }
 main .banner img{
     border: 5px solid white;
