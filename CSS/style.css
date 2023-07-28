@@ -148,6 +148,7 @@ main section .tours .time-place .place span{
 }
 main section .tours .time-place .place span:hover{
     color: #d3c29a;
+    cursor: pointer;
 }
 main section .tours .time-place .place a{
 margin-top: 10px;
