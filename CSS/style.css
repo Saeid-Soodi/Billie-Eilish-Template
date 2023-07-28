@@ -100,60 +100,68 @@ section .title{
     
 }
 /*tours section*/
-main section .tours{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- 
-}
-main section .tours .time-place{
-display: flex;
-align-items: center;
-margin-top: 70px;
 
+section .tours{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 600px;
 }
 
-main section .tours .time-place .time{
-display: flex;
-flex-direction: column;
-color: white;
-background-color: rgba(211, 194, 154, 0.3);
-padding: 25px 30px;
-font-size: 1.2em;
-font-weight: bold;
-margin-right: 300px;
 
+section .tours .times {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    margin-left: 250px;
+   
 }
-main section .tours .time-place .time span{
-    margin-top: 4px;
-    max-width:  50px;
-    min-width:  50px;
-    text-align: center;
-}
-main section .tours .time-place .time:hover{
-    background-color: rgba(211, 194, 154, 0.5);
-}
-
-main section .tours .time-place .place{
+section .times .month{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+    padding: 25px;
     color: white;
-   margin-right: 360px;
-    font-style: italic;
+    font-size: 1.1em;
+    background-color: rgba(211, 194, 154, 0.3);
 }
-main section .tours .time-place .place span{
-    margin-top: 7px;
-    font-size: 1.5em ;
-}
-main section .tours .time-place .place span:hover{
-    color: #d3c29a;
+section .times .month:hover{
+    background-color: rgba(211, 194, 154, 0.6);
     cursor: pointer;
 }
-main section .tours .time-place .place a{
-margin-top: 10px;
-color: #d3c29a;
+
+section .places{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
 }
+
+section .places .location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+}
+section .places .location span{
+    margin-top: 3px;
+    font-size: 1.42em;
+}
+section .places .location span:hover{
+    color: #d3c29a;
+}
+section .places .location a{
+    color: #d3c29a;
+}
+
 
 /*footer*/
 footer .logos{
