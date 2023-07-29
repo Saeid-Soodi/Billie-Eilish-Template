@@ -63,13 +63,12 @@ margin-top: 25px;
 }
 main .iframes span{ 
     color: white;
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 1.4em;
   
     font-style: italic;
 }
-
-
+/*Album Section (image)*/
 main .banner{
     width: 1100px;
     height: 578px;
@@ -79,10 +78,12 @@ main .banner{
 }
 main .banner:hover{
     cursor: pointer;
+    
 }
 main .banner img{
     border: 5px solid white;
 }
+
 main .happier-than-ever-album{
     margin-top: 100px;
     display: flex;
