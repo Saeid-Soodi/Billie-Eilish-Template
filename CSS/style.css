@@ -49,6 +49,27 @@ header nav .right a{
 header nav .right a:hover{
     color: white;
 }
+/*Main*/
+
+/*YouTube*/
+main .iframes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+main .youtube{
+margin-top: 25px;
+}
+main .iframes span{ 
+    color: white;
+    margin-top: 20px;
+    font-size: 1.4em;
+  
+    font-style: italic;
+}
+
+
 main .banner{
     width: 1100px;
     height: 578px;
@@ -215,10 +236,13 @@ section .item .desc a{
 
 section .shop-all button{
   margin: 110px 624px;
-  padding: 20px 100px;
+  padding: 15px 70px;
   color: #d3c29a;
   background-color: #8d6e51;
   border: 2px solid #D3C29A;
+  font-family: Bille;
+  font-style: italic;
+  font-size: 1em;
   outline: none;
 }
 section .shop-all button:hover{
