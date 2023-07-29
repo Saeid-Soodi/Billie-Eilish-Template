@@ -84,15 +84,6 @@ margin-top: 20px;
 color: #d3c29a;
 letter-spacing: 4px;
 }
-
-main .slider {
-    text-align: center;
-}
-main .slider img{
-    margin-top: 500px;
-    width: 90%;
-    height: 280px;
-}
 section .title{ 
    max-width: fit-content;
    margin-left:550px;
@@ -133,6 +124,8 @@ section .times .month{
     padding: 25px;
     color: white;
     font-size: 1.1em;
+    min-width: 50px;
+    max-width: 50px;
     background-color: rgba(211, 194, 154, 0.3);
 }
 section .times .month:hover{
@@ -166,7 +159,73 @@ section .places .location span:hover{
 }
 section .places .location a{
     color: #d3c29a;
+    font-size: 1.1em;
 }
+
+/*Slider Banner*/
+main .slider {
+    text-align: center;
+}
+main .slider img{
+    margin-top: 200px;
+    width: 90%;
+    height: 280px;
+}
+/*section Store*/
+section .title1{ 
+   max-width: fit-content;
+   margin-left:650px;
+   text-align: center;
+    margin-top: 150px;
+    font-size: 1.7em; 
+    font-weight: bold;
+    color:#8d6e51;
+    background-color: #d3c29a;
+    letter-spacing: 20px;
+    padding: 0px 2px 0px 20px;  
+}
+section .product{
+    margin-top: 90px;
+    display: flex;
+    margin-left: 70px;
+}
+section .item{
+    display: flex;
+    flex-direction: column;
+     margin-left: 40px;
+}
+section .item .image-product img{
+width: 300px;
+}
+section .item .desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+section .item .desc span{
+color: #d3c29a;
+font-size: 1.42em;
+cursor: pointer;
+}
+section .item .desc a{
+    color: #d3c29a;
+    margin-top: 8px;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*footer*/
