@@ -213,8 +213,20 @@ section .item .desc a{
     font-size: 0.9em;
 }
 
-
-
+section .shop-all button{
+  margin: 110px 624px;
+  padding: 20px 100px;
+  color: #d3c29a;
+  background-color: #8d6e51;
+  border: 2px solid #D3C29A;
+  outline: none;
+}
+section .shop-all button:hover{
+    background-color: #D3C29A;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
 
 
