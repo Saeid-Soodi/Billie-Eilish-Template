@@ -2,9 +2,7 @@
     font-family: Billie;
     src: url(/Fonts/Tinos-Italic.ttf);
 }
-
 body{
-
     background-color: #8d6e51;
     font-size: 16px;
     margin: 0px;
@@ -34,8 +32,6 @@ font-style: italic;
 font-size: 1.2em;
 margin-right: 29px;
 font-family: Billie;
-
-
 }
 header nav .center a:hover{
     color: #d3c29a;
@@ -50,7 +46,6 @@ header nav .right a:hover{
     color: white;
 }
 /*Main*/
-
 /*YouTube*/
 main .iframes{
     display: flex;
@@ -115,11 +110,9 @@ section .title{
     color:#8d6e51;
     background-color: #d3c29a;
     letter-spacing: 20px;
-    padding: 0px 40px;
-    
+    padding: 0px 40px;   
 }
 /*tours section*/
-
 section .tours{
     display: flex;
     flex-direction: row;
@@ -127,16 +120,15 @@ section .tours{
     justify-content: center;
     margin-top: 40px;
     margin-right: 600px;
+    gap: 130px;
 }
-
 
 section .tours .times {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items:flex-start;
-    margin-left: 250px;
-   
+    margin-left: 250px;   
 }
 section .times .month{
     display: flex;
@@ -160,7 +152,7 @@ section .places{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
+    
 }
 
 section .places .location{
@@ -252,19 +244,6 @@ section .shop-all button:hover{
     cursor: pointer;
     transition: 0.5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
 footer .logos{
     margin-top: 10px;
