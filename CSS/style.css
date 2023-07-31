@@ -244,9 +244,135 @@ section .shop-all button:hover{
     cursor: pointer;
     transition: 0.5s;
 }
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    width: 1200px;
+    min-height: 80vh;
+}
+section .container h2{
+    margin-top: 70px;
+color: #8d6e51;
+letter-spacing: 9px;
+}
+
+section .container .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+section .container .form .row-flex{
+    margin-top: 60px;
+display: flex;
+align-items: center;
+column-gap: 30px;
+
+}
+section .container .form .row-flex .input-box{
+display: flex;
+flex-direction: column;
+}
+
+section .container .form .row-flex .input-box label{
+color:#D3C29A;
+letter-spacing: 3px;
+}
+section .container .form .row-flex .input-box label span{
+color: red;
+}
+
+section .container .form .row-flex .input-box input 
+,section .container .form .row-flex .input-box select
+{
+margin-top: 4px;
+border: none;
+color: #D3C29A;
+border-bottom: 2px solid #D3C29A;
+width: 250px;
+outline: none;
+font-style: italic;
+    font-weight: bold;
+}
+
+section .container .form .required{
+font-size: 0.7em;
+margin-top: 20px;
+letter-spacing: 2px;
+color: rgb(178, 176, 176);
+}
+section .container .form .agree-email{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
+section .container .form .agree-email .sub{
+ letter-spacing: 3px;
+ color: rgb(178, 176, 176);
+ font-style: italic;  
+ font-size: 1.1em;
+}
+section .container .form .agree-email .checkbox{
+    color: #D3C29A  ;
+}
+section .container .form .agree-email .checkbox:hover{
+    cursor: pointer;
+}
+
+section .container .form .agree-email .checkbox span{
+    letter-spacing: 3px;
+    font-size: 1em;
+    text-decoration:underline;
+}
+section .container .form .texts{
+display: flex;
+flex-direction: column;
+gap: 0px;
+margin-top: 10px;
+align-items: center;
+
+}
+section .container .form .texts .p  {
+    margin: 0;
+    margin-top: 15px;
+    color: #8d6e51;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+section .container .form .texts .privacy {
+    margin: 0;
+    margin-top: 4px;
+    font-size: 0.8em;
+    color: gray;
+}
+section .container .form .texts .privacy:hover{
+    cursor: pointer;
+}
+
+section .container .form button{
+    margin-top: 50px;
+    padding: 20px 60px;
+    background-color: white;
+    border: 2px solid #D3C29A;
+    color: #D3C29A;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+section .container .form button:hover{
+    background-color:#D3C29A;
+color: white;
+}
 /*footer*/
 footer .logos{
-    margin-top: 10px;
+    margin-top: 40px;
     text-align: center;
 }
 footer .logos a{
@@ -260,6 +386,7 @@ footer .logos a:hover{
 footer .copy-right{
     margin-top: 10px;
     text-align: center;
+    margin-bottom:15px;
 }
 footer .copy-right a{
     font-size: 1em;
