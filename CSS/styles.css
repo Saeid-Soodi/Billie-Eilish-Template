@@ -20,11 +20,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #7d6840;
 }
 nav .logo a img {
-  width: 180px;
+  width: 170px;
 }
 nav .links {
   list-style: none;
@@ -32,4 +32,12 @@ nav .links {
   font-weight: 700;
   font-style: italic;
   gap: 15px;
+}
+nav .links a {
+  font-size: 1.1rem;
+}
+nav .icons {
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }/*# sourceMappingURL=styles.css.map */

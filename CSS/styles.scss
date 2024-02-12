@@ -18,21 +18,30 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: $background;
 
   .logo {
     a {
       img {
-        width: 180px;
+        width: 170px;
       }
     }
   }
+
   .links {
     list-style: none;
     display: flex;
     font-weight: 700;
     font-style: italic;
     gap: 15px;
+    a {
+      font-size: 1.1rem;
+    }
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 13px;
   }
 }
