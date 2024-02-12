@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
-@import _colors.scss;
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +7,23 @@
   font-family: 'Tinos';
 }
 
-header {
+nav {
+  .logo {
+    a {
+      img {
+        width: 180px;
+      }
+    }
+  }
+  
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 
-  nav {
+  .links {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 5px;
   }
 }
