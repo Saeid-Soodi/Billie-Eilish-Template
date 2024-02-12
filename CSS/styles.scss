@@ -1,25 +1,6 @@
-// Font Tinos from Google
-@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
-@import './colors';
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: 'Tinos';
-  background-color: $body;
-}
-
-a {
-  text-decoration: none;
-  color: $links;
-}
-
-a:hover {
-  color: $hover;
-}
-
 //*!Moudules
+@import './Global.scss';
 @import './Nav.scss';
 @import './Hero.scss';
 @import './Store.scss';
+@import './Footer.scss';
