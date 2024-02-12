@@ -1,47 +1,24 @@
+// Font Tinos from Google
 @import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
+//*!Moudules
 @import './colors';
+@import './Nav.scss';
+@import './Hero.scss';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
   font-family: 'Tinos';
+  background-color: $body;
 }
+
 a {
   text-decoration: none;
   color: $links;
 }
+
 a:hover {
   color: $linksHover;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: $background;
-
-  .logo {
-    a {
-      img {
-        width: 170px;
-      }
-    }
-  }
-
-  .links {
-    list-style: none;
-    display: flex;
-    font-weight: 700;
-    font-style: italic;
-    gap: 15px;
-    a {
-      font-size: 1.1rem;
-    }
-  }
-  .icons {
-    display: flex;
-    align-items: center;
-    gap: 13px;
-  }
 }

@@ -1,0 +1,36 @@
+// Navbar Styles
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: $body;
+  
+    .logo {
+      a {
+        img {
+          width: 170px;
+        }
+      }
+    }
+  
+    .links {
+      list-style: none;
+      display: flex;
+      font-weight: 700;
+      font-style: italic;
+      letter-spacing: 1px;
+      gap: 15px;
+      a {
+        font-size: 1.1rem;
+      }
+    }
+    
+    .icons {
+      display: flex;
+      align-items: center;
+      color: $linksHover;
+      gap: 13px;
+    }
+  }

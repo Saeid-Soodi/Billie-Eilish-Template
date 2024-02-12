@@ -1,27 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: "Tinos";
-}
-
-a {
-  text-decoration: none;
-  color: #dbcaba;
-}
-
-a:hover {
-  color: #b7aca1;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: #7d6840;
+  padding: 15px;
+  background-color: #8b684e;
 }
 nav .logo a img {
   width: 170px;
@@ -31,6 +14,7 @@ nav .links {
   display: flex;
   font-weight: 700;
   font-style: italic;
+  letter-spacing: 1px;
   gap: 15px;
 }
 nav .links a {
@@ -39,5 +23,30 @@ nav .links a {
 nav .icons {
   display: flex;
   align-items: center;
+  color: #e4d3b9;
   gap: 13px;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Tinos";
+  background-color: #8b684e;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #e4d3b9;
 }/*# sourceMappingURL=styles.css.map */
