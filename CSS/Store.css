@@ -14,4 +14,44 @@
   letter-spacing: 20px;
   font-size: 1.4rem;
   font-style: italic;
+}
+.store .products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+.store .products .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #E1D3BB;
+  font-style: italic;
+}
+.store .products .item img {
+  width: 300px;
+}
+.store .products .item .name {
+  width: 230px;
+  font-size: 1.3rem;
+}
+.store .products .item .order {
+  margin-top: 15px;
+}
+.store button {
+  margin-top: 100px;
+  padding: 5px 50px;
+  font-size: 1.1rem;
+  border: 2px solid #E1D3BB;
+  font-style: italic;
+  color: #E1D3BB;
+}
+
+button:hover {
+  background-color: #E1D3BB;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }/*# sourceMappingURL=Store.css.map */
