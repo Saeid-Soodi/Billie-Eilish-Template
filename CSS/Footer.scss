@@ -1,0 +1,17 @@
+// Footer Section
+@import './colors.scss';
+@import './Functions.scss';
+
+footer{
+margin-top: 70px;
+@include flexCenter();
+gap: 20px;
+.icons{
+    @include flexRow();
+    gap: 20px;
+}
+.links{
+    @include flexRow();
+    gap: 20px;
+}
+}
