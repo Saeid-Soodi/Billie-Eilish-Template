@@ -7,11 +7,21 @@
   font-family: "Tinos";
 }
 
+a {
+  text-decoration: none;
+  color: #dbcaba;
+}
+
+a:hover {
+  color: #b7aca1;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: #7d6840;
 }
 nav .logo a img {
   width: 180px;
@@ -19,5 +29,7 @@ nav .logo a img {
 nav .links {
   list-style: none;
   display: flex;
-  gap: 5px;
+  font-weight: 700;
+  font-style: italic;
+  gap: 15px;
 }/*# sourceMappingURL=styles.css.map */
