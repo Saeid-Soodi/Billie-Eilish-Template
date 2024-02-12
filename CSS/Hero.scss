@@ -1,5 +1,27 @@
 @import './functions.scss';
+@import './colors.scss';
 
 .album {
-@include flexCenter();
+  @include flexCenter();
+  gap: 20px;
+  margin-top: 80px;
+
+  img {
+    width: 581px;
+  }
+  .title {
+    font-style: italic;
+    font-size: 1.3rem;
+    color: $title;
+  }
+
+  .link {
+    letter-spacing: 2px;
+    color: $hover;
+  }
+
+  .banner {
+    width: 1400px;
+    margin-top: 50px;
+  }
 }

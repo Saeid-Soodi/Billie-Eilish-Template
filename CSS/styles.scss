@@ -1,10 +1,6 @@
 // Font Tinos from Google
 @import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
-//*!Moudules
 @import './colors';
-@import './Nav.scss';
-@import './Hero.scss';
-
 * {
   margin: 0;
   padding: 0;
@@ -20,5 +16,10 @@ a {
 }
 
 a:hover {
-  color: $linksHover;
+  color: $hover;
 }
+
+//*!Moudules
+@import './Nav.scss';
+@import './Hero.scss';
+@import './Store.scss';
